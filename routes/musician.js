@@ -5,7 +5,6 @@ const jsonParser = bodyParser.json();
 const schema = require('../store/schema');
 
 
-
 // retrieve all musicians from data store
 router.get('/health', (req, res) => {
     res.status('200').send("200 - ok");
